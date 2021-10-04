@@ -15,3 +15,7 @@ Small collection of basic scripts to read and combine Aneufinder data to generat
 - __Reorganize Aneufinder plots__
 
 *Some people don't like that the standard single cell karyotype and genomewide anuefinder plots are not ordered numerically from e.g. 1 to 100. This script is heplful to generate pdf plots in which the single cells are ordered accoring to file numbering.*
+
+- __Organize files from 384-well plate to sample folders__
+
+*Very basic script that enables redistribution of data (bed.files) from 384 well plate format to separate sample folders.
