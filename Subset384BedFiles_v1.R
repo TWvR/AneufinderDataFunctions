@@ -16,16 +16,16 @@
 
 
 #set input directory that contains the files that need to be sorted
-input_dir <- ("/Input/TRscFACS_10A")
+input_dir <- ("Input/my_folder")
 
 #set plate name (will be included in sample folder names, optional)
-name.plate <- c("TRscFACS_8A")
+name.plate <- c("my_plate_name")
 
 #set sample names (e.g. c(paste0("your name", name.plate)) - to included plate name)
-name.sample1 <- c(paste0("C009_",name.plate , "_p20"))
-name.sample2 <- c(paste0("C033_",name.plate , "_p22"))
-name.sample3 <- c(paste0("P11N-APKS-empty_",name.plate , "_punk+19"))
-name.sample4 <- c(paste0("C007_",name.plate , "_p4"))
+name.sample1 <- c(paste0("sample_A",name.plate))
+name.sample2 <- c(paste0("sample_B",name.plate))
+name.sample3 <- c(paste0("sample_C",name.plate))
+name.sample4 <- c(paste0("sample_D",name.plate))
 
 #rename files if .bed extension is missing (TRUE/FALSE)
 rename.my.files <- TRUE
