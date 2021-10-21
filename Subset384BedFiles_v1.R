@@ -44,7 +44,7 @@ if (rename.my.files == TRUE){
 }
   
 #combine sample names to single vector
-sample.names <- c(name.sample1, name.sample2, name.sample3, name.sample4, "controls")
+sample.names <- c(name.sample1, name.sample2, name.sample3, name.sample4, paste0(name.plate, "_controls"))
 
 
 #Assign barcode numbers to each sample
