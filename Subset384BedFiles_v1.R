@@ -15,8 +15,8 @@
 ###---------------------------------------------------###
 
 
-#set input directory that contains the files that need to be sorted
-input_dir <- ("Input/my_folder")
+#set input directory that contains the files that need to be sorted (end path with "/")
+input_dir <- ("Input/my_folder/")
 
 #set plate name (will be included in sample folder names, optional)
 name.plate <- c("my_plate_name")
