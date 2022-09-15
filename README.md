@@ -1,5 +1,5 @@
 # AneufinderDataFunctions
-Small collection of basic scripts to read and combine Aneufinder data to generate new plots. Especially useful for non-expert R users. Scripts should be quite self-explanatory, I haven't included extensive user instructions.
+Small collection of basic scripts to read and combine Aneufinder data to generate new plots. Especially useful for non-expert R users. These scripts should be quite self-explanatory, but if you have any questions, please don't hestitate to send me an email.
 
 
 ## Included Scripts
